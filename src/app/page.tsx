@@ -19,18 +19,18 @@ export default function Hero() {
             {/* Hero Section */}
             <div className="flex flex-col items-start gap-10 px-6 md:px-14 py-16 md:py-24 relative">
                 <div className="inline-flex flex-col items-start gap-6">
-                    <p className="w-full md:w-80 font-semibold text-white text-lg sm:text-xl">
+                    <p className="w-full md:w-80 font-semibold text-white text-lg sm:text-xl text-left">
                         👋 HEY, I AM ERICA
                     </p>
                     <p className="text-4xl sm:text-5xl md:text-7xl font-medium bg-[linear-gradient(176deg,rgba(254,250,238,1)_0%,rgba(252,214,139,1)_34%,rgba(249,120,76,1)_66%,rgba(156,53,109,1)_94%)] [-webkit-background-clip:text] text-transparent leading-snug">
                         A YOUNG CREATIVE<br className="hidden sm:block" /> DESIGNER BASED IN <br className="hidden sm:block" />SAN DIEGO
                     </p>
                 </div>
-                <div className="flex flex-row items-center justify-center sm:justify-start sm:gap-6 gap-10 p-10 w-full ml-[-40px]">
-                    <button className="px-6 py-3 rounded-full overflow-hidden border border-white text-white">
+                <div className="flex flex-col flex-row items-center sm:justify-start gap-6 w-full ">
+                    <button className="px-10 py-1 lg:py-3 rounded-full overflow-hidden border border-white text-white">
                         MY WORKS
                     </button>
-                    <button className="px-6 py-3 bg-white text-black rounded-full overflow-hidden">
+                    <button className="px-10 py-1 lg:py-3 bg-white text-black rounded-full overflow-hidden">
                         LET&apos;S TALK
                     </button>
                 </div>

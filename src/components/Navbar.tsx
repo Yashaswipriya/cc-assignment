@@ -7,28 +7,31 @@ export default function Navigation() {
   const menuItems = ["ABOUT ME", "PORTFOLIO", "SKILLS", "SERVICES", "TESTIMONIALS"];
 
   return (
-    <div className="flex w-auto items-center justify-between px-14 py-4 relative rounded-[40px] bg-black">
-      {/* Desktop navigation */}
+    <div className="flex w-auto items-center justify-between px-6 sm:px-10 lg:px-14 py-4 relative rounded-[40px] bg-black">
+      {/* Logo */}
       <div className="flex flex-col h-6 items-center justify-center gap-2.5">
         ERICA JONES
       </div>
 
-      <nav className="hidden md:flex items-start gap-10 text-[#fdfaee99]">
+      {/* Desktop navigation — show only on lg and above */}
+      <nav className="hidden lg:flex items-start gap-10 text-[#fdfaee99]">
         {menuItems.map((item) => (
           <div key={item}>{item}</div>
         ))}
       </nav>
 
-      <button className="hidden md:inline-flex items-center justify-center gap-2.5 px-6 py-3 relative bg-white rounded-full overflow-hidden text-black">
+      <button className="hidden lg:inline-flex items-center justify-center gap-2.5 px-6 py-3 relative bg-white rounded-full overflow-hidden text-black">
         GET IN TOUCH
       </button>
 
-      {/* Mobile navigation */}
-      <div className="md:hidden flex items-center">
+      {/* Mobile navigation trigger */}
+      <div className="lg:hidden flex items-center">
         <button onClick={() => setIsMobileOpen(true)}>
           <img src="/Menu Icon.svg" alt="Menu" className="w-8 h-8" />
         </button>
       </div>
+
+      {/* Mobile menu */}
       {isMobileOpen && (
         <div className="fixed inset-0 z-50 bg-neutral-900">
           <div className="relative w-full h-full overflow-hidden backdrop-blur-[25px] px-4 py-6">

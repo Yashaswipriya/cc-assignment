@@ -22,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={montserrat.variable}>
       <body
+        className="overflow-x-hidden"
          style={{ fontFamily: 'var(--font-montserrat), Helvetica, Arial, sans-serif' }}
       >
         {children}
