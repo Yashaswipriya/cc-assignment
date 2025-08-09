@@ -2,12 +2,20 @@
 
 ## 📱 Responsive Design Previews
 
-### Mobile (iPhone 12)
-![Mobile Screenshot](./screenshots/mobile1.png)(./screenshots/mobile2.png)
+### 📱 Mobile View(iPhone 14 Pro Max)
+<p align="center">
+  <img src="screenshots/mobile1.png" width="45%" />
+  <img src="screenshots/mobile2.png" width="45%" />
+</p>
 
-### Tablet (iPad)
-![Tablet Screenshot](./screenshots/tablet1.png)(./screenshots/tablet2.png)
+### 📱 Tablet View(iPad)
+<p align="center">
+  <img src="screenshots/tablet1.png" width="45%" />
+  <img src="screenshots/tablet2.png" width="45%" />
+</p>
 
-### Desktop (1920px)
-![Desktop Screenshot](./screenshots/desktop1.png)(./screenshots/desktop2.png)
-
+### 🖥 Desktop View(1920px)
+<p align="center">
+  <img src="screenshots/desktop1.png" width="45%" />
+  <img src="screenshots/desktop2.png" width="45%" />
+</p>
