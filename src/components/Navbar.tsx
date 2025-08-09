@@ -13,7 +13,7 @@ export default function Navigation() {
         ERICA JONES
       </div>
 
-      {/* Desktop navigation — show only on lg and above */}
+      {/* Desktop navigation */}
       <nav className="hidden lg:flex items-start gap-10 text-[#fdfaee99]">
         {menuItems.map((item) => (
           <div key={item}>{item}</div>
@@ -24,14 +24,13 @@ export default function Navigation() {
         GET IN TOUCH
       </button>
 
-      {/* Mobile navigation trigger */}
+      {/* Mobile navigation */}
       <div className="lg:hidden flex items-center">
         <button onClick={() => setIsMobileOpen(true)}>
           <img src="/Menu Icon.svg" alt="Menu" className="w-8 h-8" />
         </button>
       </div>
 
-      {/* Mobile menu */}
       {isMobileOpen && (
         <div className="fixed inset-0 z-50 bg-neutral-900">
           <div className="relative w-full h-full overflow-hidden backdrop-blur-[25px] px-4 py-6">
